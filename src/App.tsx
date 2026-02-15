@@ -17,7 +17,7 @@ const MODELS = [
 ]
 
 const TWITTER_URL = 'https://x.com/clawgrowth'
-const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000'
+const CONTRACT_ADDRESS = 'Dv3ca6HgNoNKNRmc3JV9nkxYhHQ5SKGwH9z9f6Rfpump'
 
 const SAMPLE_CODE = `// Claw Growth — Growth Automation
 const config = {
@@ -56,6 +56,10 @@ function App() {
       <nav className="navbar">
         <a href="#" className="nav-brand">Claw Growth</a>
         <div className="nav-actions">
+          <div className="nav-ca">
+            <span className="nav-ca-label">CA:</span>
+            <code className="nav-ca-address">{CONTRACT_ADDRESS}</code>
+          </div>
           <button
             className="btn btn-nav"
             onClick={handleCopyCA}

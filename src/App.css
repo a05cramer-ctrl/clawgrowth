@@ -32,6 +32,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   padding: 1rem 1.5rem;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(12px);
@@ -56,6 +58,31 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.nav-ca {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  background: rgba(57, 255, 20, 0.08);
+  border: 1px solid rgba(57, 255, 20, 0.2);
+  border-radius: 8px;
+}
+
+.nav-ca-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--neon-green);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nav-ca-address {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--metallic);
+  word-break: break-all;
 }
 
 .btn-nav {
