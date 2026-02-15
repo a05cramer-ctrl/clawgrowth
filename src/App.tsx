@@ -16,7 +16,7 @@ const MODELS = [
   'Stealth Accumulation',
 ]
 
-const TWITTER_URL = 'https://twitter.com/clawdbot'
+const TWITTER_URL = 'https://x.com/clawgrowth'
 const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000'
 
 const SAMPLE_CODE = `// Claw Growth — Growth Automation
